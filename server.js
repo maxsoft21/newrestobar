@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
     stream.pipe(res);
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 server.listen(PORT, () => {
     console.log(`Servidor en ejecución en http://localhost:${PORT}`);
 });
