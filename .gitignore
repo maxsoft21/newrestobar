@@ -1,14 +1,8 @@
-# Dependency directories
-node_modules/
+node_modules
 
-# Optional npm debugging logs
-npm-debug.log
-
-# Optional Yarn debugging logs
-yarn-error.log
-
-# Optional Mac system files
-.DS_Store
-
-# Environment file
 .env
+
+dist
+
+package-lock.json
+yarn.lock
