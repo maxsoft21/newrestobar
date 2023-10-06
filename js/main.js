@@ -184,21 +184,21 @@ const menuJSONParaPicotear = {
       name: "LECHE DE TIGRE",
       description:
         "Reyneta, Camaron Ecuatoriano, Cancha Serrana, Camote, Marinado en limon mezclado en el jugo del ceviche, acompañados con ricas tostadas, servido en copa",
-      price: "$4.990.-",
+      price: "$6.900.-",
       srcImage: pathImageParaPicotear + "/lecheDeTigre.jpg",
     },
     {
       name: "CEVICHE NEW",
       description:
         "Reyneta, Cebolla Morada, Camote, Cancha Serrana, Todo marinado en jugo de limon",
-      price: "$7.500.-",
+      price: "$12.900.-",
       srcImage: pathImageParaPicotear + "/cevicheNew.jpg",
     },
     {
       name: "CEVICHE MIXTO",
       description:
         "Camaron Ecuatoriano, Reyneta, Cebolla Morada, Camote, Cancha Serrana y todo Marinado en Jugo de Limon",
-      price: "$8.500.-",
+      price: "$14.900.-",
       srcImage: pathImageParaPicotear + "/cevicheMixto.jpg",
     },
     {
@@ -213,7 +213,7 @@ const menuJSONParaPicotear = {
       description:
         "Carne de Vacuno, Cerdo, Pollo, Chorizos, Cebolla, Caramelizada, Papas Fritas",
       price: "$11.990.-",
-      srcImage: pathImageParaPicotear + "/chorrillanaOld.jpg",
+      srcImage: pathImageParaPicotear + "/chorrillanaNew.jpg",
     },
     {
       name: "LOMO SALTEADO",
@@ -227,14 +227,14 @@ const menuJSONParaPicotear = {
       description:
         "Trozos de pollo apanado al estilo New acompañado de Salsa Teriyaki y Guacamole.",
       price: "$5.990.-",
-      srcImage: pathImageParaPicotear + "/",
+      srcImage: pathImageParaPicotear + "/polloApanado.jpg",
     },
     {
       name: "PAPAS A LA NEW",
       description:
         "Papas Chips Ruticas, Trocitos de Carne, Champiñones, bañado en queso derretido con un toque de oregano.",
       price: "$7.500.-",
-      srcImage: pathImageParaPicotear + "/",
+      srcImage: pathImageParaPicotear + "/papasNew.jpg",
     },
     {
       name: "PAPAS A LA MEXICANA",
@@ -376,6 +376,12 @@ const menuJSONPizzaPromociones = {
 const menuJSONTagosDeLaCasa = {
   items: [
     {
+      name: "NEW TROPIC",
+      price: "$6.990",
+      description: "Limón de pica macerado con menta fresca Maracuya, Frambuesa, destilado de jagermaitter con toque de ron bacardi.",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
       name: "Luna de Miel",
       price: "$4.990",
       description: "Jack Daniels honey, Menta y Limon de pica",
@@ -443,16 +449,22 @@ const menuJSONTagosDeLaCasa = {
 const menuJSONCervezasBarril = {
   items: [
     {
+      name: "Chopp de Cusqueña 500cc",
+      description: "",
+      price: "$3.000    2 x $5.000",
+      srcImage: pathImageCervezas + "/shopCusquenha.jpeg",
+    },
+    {
       name: "Edeltoff",
       description: "Summer Ale - Ambar Ale",
       price: "$3.000    2 x $5.000",
       srcImage: pathImageCervezas + "/",
     },
     {
-      name: "Estrella Damm schop",
+      name: "Estrella Damm Chopp",
       description: "",
       price: "2 X $6.000",
-      srcImage: pathImageCervezas + "/",
+      srcImage: pathImageCervezas + "/estrellaDam.jpg",
     },
     {
       name: "Kross Golden",
