@@ -244,7 +244,7 @@ const menuJSONParaPicotear = {
       srcImage: pathImageParaPicotear + "/",
     },
     {
-      name: "TABLE DE CARNE",
+      name: "TABLA DE CARNE",
       description:
         "Carne de Vacuno, Carne de cerdo, Longanizas, Pollo, Champiñones Salteados en aceite de Oliva, acompañados de Salame, Aceitunas, Pan tostado con aceite de oliva y oregano, Guacamole.",
       price: "$9.990.-",
