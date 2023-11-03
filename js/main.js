@@ -121,6 +121,15 @@ const menuItemsPizzaPromociones = document.getElementById(
 const menuItemsTagosDeLaCasa = document.getElementById(
   "menuItemsTagosDeLaCasa"
 );
+const menuItemsTagosDeLaCasaSour = document.getElementById(
+  "menuItemsTagosDeLaCasaSour"
+);
+const menuItemsTagosDeLaCasaClasicos = document.getElementById(
+  "menuItemsTagosDeLaCasaClasicos"
+);
+const menuItemsTagosDeLaCasaEroticDrink = document.getElementById(
+  "menuItemsTagosDeLaCasaEroticDrink"
+);
 const menuItemsCervezasBarril = document.getElementById(
   "menuItemsCervezasBarril"
 );
@@ -133,16 +142,36 @@ const menuItemsCervezasBotella = document.getElementById(
 const menuItemsEspumantes = document.getElementById("menuItemsEspumantes");
 const menuItemsVinosTintos = document.getElementById("menuItemsVinosTintos");
 const menuItemsVinosBlancos = document.getElementById("menuItemsVinosBlancos");
-const menuItemsDestiladosCaribe = document.getElementById("menuItemsDestiladosCaribe");
-const menuItemsDestiladosSpritz = document.getElementById("menuItemsDestiladosSpritz");
-const menuItemsDestiladosVirgins = document.getElementById("menuItemsDestiladosVirgins");
-const menuItemsDestiladosPiscos = document.getElementById("menuItemsDestiladosPiscos");
-const menuItemsDestiladosRon = document.getElementById("menuItemsDestiladosRon");
-const menuItemsDestiladosWhisky = document.getElementById("menuItemsDestiladosWhisky");
-const menuItemsDestiladosVodka = document.getElementById("menuItemsDestiladosVodka");
-const menuItemsDestiladosLicores = document.getElementById("menuItemsDestiladosLicores");
-const menuItemsDestiladosShot = document.getElementById("menuItemsDestiladosShot");
-const menuItemsDestiladosMixer = document.getElementById("menuItemsDestiladosMixer");
+const menuItemsDestiladosCaribe = document.getElementById(
+  "menuItemsDestiladosCaribe"
+);
+const menuItemsDestiladosSpritz = document.getElementById(
+  "menuItemsDestiladosSpritz"
+);
+const menuItemsDestiladosVirgins = document.getElementById(
+  "menuItemsDestiladosVirgins"
+);
+const menuItemsDestiladosPiscos = document.getElementById(
+  "menuItemsDestiladosPiscos"
+);
+const menuItemsDestiladosRon = document.getElementById(
+  "menuItemsDestiladosRon"
+);
+const menuItemsDestiladosWhisky = document.getElementById(
+  "menuItemsDestiladosWhisky"
+);
+const menuItemsDestiladosVodka = document.getElementById(
+  "menuItemsDestiladosVodka"
+);
+const menuItemsDestiladosLicores = document.getElementById(
+  "menuItemsDestiladosLicores"
+);
+const menuItemsDestiladosShot = document.getElementById(
+  "menuItemsDestiladosShot"
+);
+const menuItemsDestiladosMixer = document.getElementById(
+  "menuItemsDestiladosMixer"
+);
 const pathImageParaPicotear = "./img/paraPicotear";
 const pathImagePizza = "./img/pizzas";
 const pathImageTagosDeLaCasa = "./img/tragosDeLaCasa";
@@ -157,6 +186,7 @@ const menuJSONParaPicotear = {
       name: "EMPANADITAS DE QUESO - 8",
       description: "",
       price: "$3.900.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/empanadas.jpg",
     },
     {
@@ -164,6 +194,7 @@ const menuJSONParaPicotear = {
       description:
         "Lomo vetado 200 grs, queso derretido, todo en Pan Frica + Porcion de papas fritas ",
       price: "$5.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/barrosLuco.jpg",
     },
     {
@@ -171,6 +202,7 @@ const menuJSONParaPicotear = {
       description:
         "Lomo vetado 200 grs, tomate, palta, mayonesa casera, en  Pan frica + porcion de papas fritas",
       price: "$5.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/lomitoItaliano.jpg",
     },
     {
@@ -178,6 +210,7 @@ const menuJSONParaPicotear = {
       description:
         "Lomo vetado 200 grs, porotos verdes, tomate, mayonesa casera, aji verde, en pan frica, + porcion de papas fritas",
       price: "$5.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/lomoChacarero.jpg",
     },
     {
@@ -185,6 +218,7 @@ const menuJSONParaPicotear = {
       description:
         "Reyneta, Camaron Ecuatoriano, Cancha Serrana, Camote, Marinado en limon mezclado en el jugo del ceviche, acompañados con ricas tostadas, servido en copa",
       price: "$6.900.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/lecheDeTigre.jpg",
     },
     {
@@ -192,6 +226,7 @@ const menuJSONParaPicotear = {
       description:
         "Reyneta, Cebolla Morada, Camote, Cancha Serrana, Todo marinado en jugo de limon",
       price: "$12.900.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/cevicheNew.jpg",
     },
     {
@@ -199,6 +234,7 @@ const menuJSONParaPicotear = {
       description:
         "Camaron Ecuatoriano, Reyneta, Cebolla Morada, Camote, Cancha Serrana y todo Marinado en Jugo de Limon",
       price: "$14.900.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/cevicheMixto.jpg",
     },
     {
@@ -206,6 +242,7 @@ const menuJSONParaPicotear = {
       description:
         "Carne de Vacuno,  Cerdo,  Pollo, Chorizo, Cebolla Caramelizada, Papas Chips Rusticas",
       price: "$11.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/chorrillanaNew.jpg",
     },
     {
@@ -213,6 +250,7 @@ const menuJSONParaPicotear = {
       description:
         "Carne de Vacuno, Cerdo, Pollo, Chorizos, Cebolla, Caramelizada, Papas Fritas",
       price: "$11.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/chorrillanaNew.jpg",
     },
     {
@@ -220,6 +258,7 @@ const menuJSONParaPicotear = {
       description:
         "Carne de Vacuno, Papas Fritas, Acompañado con un mix de verduras salteadas",
       price: "$8.500.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
     {
@@ -227,6 +266,7 @@ const menuJSONParaPicotear = {
       description:
         "Trozos de pollo apanado al estilo New acompañado de Salsa Teriyaki y Guacamole.",
       price: "$5.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/polloApanado.jpg",
     },
     {
@@ -234,6 +274,7 @@ const menuJSONParaPicotear = {
       description:
         "Papas Chips Ruticas, Trocitos de Carne, Champiñones, bañado en queso derretido con un toque de oregano.",
       price: "$7.500.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/papasNew.jpg",
     },
     {
@@ -241,6 +282,7 @@ const menuJSONParaPicotear = {
       description:
         "Papas Chips cubiertas en salsa Mexicana, Trocitos de carne, Champiñones, Queso, con toques de oregano.",
       price: "$7.500.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
     {
@@ -248,6 +290,7 @@ const menuJSONParaPicotear = {
       description:
         "Carne de Vacuno, Carne de cerdo, Longanizas, Pollo, Champiñones Salteados en aceite de Oliva, acompañados de Salame, Aceitunas, Pan tostado con aceite de oliva y oregano, Guacamole.",
       price: "$9.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
     {
@@ -255,6 +298,7 @@ const menuJSONParaPicotear = {
       description:
         "Trozo de Carne de Vacuno y Pollo, Condimentado con aceite de Oliva, Ajo, Aji verde, Jugo de Limon con Vino Blanco acompañado de tostaditas en aceite de Oliva y Oregano.",
       price: "$10.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
     {
@@ -262,6 +306,7 @@ const menuJSONParaPicotear = {
       description:
         "Aros de Cebolla con champiñones rebosados al estilo New, Salteados de verduras y acompañados de Tomates Cherry.",
       price: "$5.000.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
     {
@@ -269,13 +314,15 @@ const menuJSONParaPicotear = {
       description:
         "Papas Chips Rusticas, Aros de Cebolla con Champiñones rebosados al estilo New acompañados con salteados de veduras y Tomates Cherry",
       price: "$5.990.-",
-      srcImage: pathImageParaPicotear + "/",
+      price2: "",
+      srcImage: pathImageParaPicotear + "/vegetarianoNewMasPapasChips.jpg",
     },
     {
       name: "HAMBURGESAS NEW",
       description:
         "Hamburgesa casera 200 gr. Bañada en queso derretido con aros de cebolla, rebosados con salsa casera, Tomate, Lechuga, Porcion de Papas Fritas en Pan Frica",
       price: "$5.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
     {
@@ -283,6 +330,7 @@ const menuJSONParaPicotear = {
       description:
         "Hamburguesa Casera de 200 grs. Bañada en queso Cheddar, Huevo frito, cebolla caramelizada, tomates, lechuga, pepinillos, rebozados en salsa casera, porcion de papas fritas en Pan frica.",
       price: "$5.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
     {
@@ -290,6 +338,7 @@ const menuJSONParaPicotear = {
       description:
         "Hamburgesa casera de 200 grs. Bañada en Queso Cheddar, chorizo parrillero, tocino, cebolla caramelizada, Tomates, Lechuga, Rebozado en salsa casera, porcion de papas fritas en pan frica​",
       price: "$5.990.-",
+      price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
   ],
@@ -301,6 +350,7 @@ const menuJSONPizza = {
       description:
         "Queso Mozarella, Peperoni, sobre una salsa de pizza casera hecha con ingredientes de primera calidad, todo en una delgada, crujiente y exquisita masa artesanal hecha en casa.",
       price: "$9.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/pizzaPepperoni.jpg",
     },
     {
@@ -308,6 +358,7 @@ const menuJSONPizza = {
       description:
         "Queso Mozarella, Tomate Cherry, Pimentón, Zanahoria, Cebolla, Champiñones, sobre una salsa de pizza casera hecha con ingredientes de primera calidad, todo en una delgada, crujiente y exquisita masa artesanal hecha en casa.",
       price: "$9.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/pizzaVegetariana.jpg",
     },
     {
@@ -315,6 +366,7 @@ const menuJSONPizza = {
       description:
         "Queso Mozarella, Tomates en rodajas, sobre una salsa de pizza casera hecha con ingredientes de primera calidad, todo en una delgada, crujiente y exquisita masa artesanal hecha en casa.",
       price: "$8.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/pizzamargarita.jpg",
     },
     {
@@ -322,13 +374,15 @@ const menuJSONPizza = {
       description:
         "Queso Mozarella, Choclo, Peperoni, Chorizo, Salame, Aceitunas, Carne Molida, sobre una salsa casera hecha con ingredientes de primera calidad, todo en una delgada, crujiente y exquisita masa hecha en casa.",
       price: "$10.990.-",
-      srcImage: pathImagePizza + "/",
+      price2: "",
+      srcImage: pathImagePizza + "/new1.jpg",
     },
     {
       name: "PIZZA NEW II FAMILIAR (38CMS)",
       description:
         "Queso Mozarella, Trozos de Lomo Vetado sazonados en salsa de whisky, Aceitunas negras, sobre una salsa casera hecha con ingredientes de primera calidad, todo en una delgada, crujiente y exquisita masa artesanal hecha en casa.",
       price: "$11.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/",
     },
     {
@@ -336,6 +390,7 @@ const menuJSONPizza = {
       description:
         "Queso Mozarella, Trozos de Pollo, Camarones, Salteados y sazonados en salsa marina, sobre una salsa casera de pizza hecha con ingredientes de primera calidad, todo en una delgada, crujiente y exquisita masa artesanal hecha en casa.",
       price: "$11.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/pizzaPolloyCamaron.jpg",
     },
   ],
@@ -347,6 +402,7 @@ const menuJSONPizzaPromociones = {
       description:
         "PIZZA PEPERONI, MARGARITA, VEGETARIANA O NEW I FAMILIAR + 1 CERVEZA LITRO ROYAL, HEINEKEN O 2 SCHOP STELLA 500 cc C/U",
       price: "$12.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/",
     },
     {
@@ -354,6 +410,7 @@ const menuJSONPizzaPromociones = {
       description:
         "PIZZA POLLO CAMARON, NEW II, + 1 CERVEZA LITRO ROYAL, HEINEKEN O 2 SCHOP STELLA 500 CC C/U",
       price: "$13.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/",
     },
     {
@@ -361,6 +418,7 @@ const menuJSONPizzaPromociones = {
       description:
         "PIZZA PEPERONI, MARGARITA, VEGETARIANA O NEW I FAMILIAR + 2 SCHOP KROSS (GOLDEN STOUT) O 2 SCHOP 24/7 (AMBER LAGER SESSION IPA) 500 cc C/U",
       price: "$14.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/",
     },
     {
@@ -368,6 +426,7 @@ const menuJSONPizzaPromociones = {
       description:
         "PIZZA POLLO&CAMARON. NEW II, + 2 SCHOP KROSS (GOLDEN O STOUT) O 2 SCHOP 24/7 (AMBER LAGER SESSION IPA) 500 CC C/U",
       price: "$15.990.-",
+      price2: "",
       srcImage: pathImagePizza + "/",
     },
   ],
@@ -378,31 +437,37 @@ const menuJSONTagosDeLaCasa = {
     {
       name: "NEW TROPIC",
       price: "$6.990",
-      description: "Limón de pica macerado con menta fresca Maracuya, Frambuesa, destilado de jagermaitter con toque de ron bacardi.",
+      description:
+        "Limón de pica macerado con menta fresca Maracuya, Frambuesa, destilado de jagermaitter con toque de ron bacardi.",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
       name: "Luna de Miel",
       price: "$4.990",
       description: "Jack Daniels honey, Menta y Limon de pica",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
       name: "Rasp n Roses",
       price: "$4.990",
       description: "Absolut Raspberry, Crema de leche, Granadina, Marrasquino",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
       name: "El Temblor",
       price: "$4.990",
       description: "Jack Daniels fire, Absolut mandarin, Curacao y Marrasquino",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
       name: "Vanilla Ice",
       price: "$4.990",
       description: "Absolut vainilla, Licor de menta, Crema de leche.",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
@@ -410,18 +475,21 @@ const menuJSONTagosDeLaCasa = {
       price: "$4.990",
       description:
         "Bombay Saphire, Albahaca, Jugo de frambuesa y Limón de pica",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
       name: "Straw-Trooper",
       price: "$4.990",
       description: "Tequila, Menta, Frutilla y Tizado con sal merquen",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
       name: "Tonic be Good",
       price: "$4.990",
       description: "Bombay Saphire, Campari, Tonica y Piel de naranja",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
@@ -429,18 +497,177 @@ const menuJSONTagosDeLaCasa = {
       price: "$4.990",
       description:
         "Absolut Vodka, Martini extra dry, cascaras de limón con aceitunas sevillanas",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
       name: "Smooth Criminal",
       price: "$4.990",
       description: "Fernet Branca, Licor de cacao y Crema de leche",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
     {
       name: "Sparkling Negroni",
       price: "$4.990",
       description: "Campari, Vermouth Rosso, Espumante Brut",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+  ],
+};
+
+const menuJSONTagosDeLaCasaSour = {
+  items: [
+    {
+      name: "Pisco Sour Chileno",
+      price: "$3.500",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Preruvian Style Sours",
+      price: "$4.990",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Amaretto Sours",
+      price: "$3.500",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Menta Sours",
+      price: "$3.500",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+  ],
+};
+
+const menuJSONTagosDeLaCasaEroticDrink = {
+  items: [
+    {
+      name: "Orgasmo",
+      price: "1 x $6.000",
+      description: "Vodka, Khalua, Bayles, Crema, Chantilly",
+      price2: "2 x $11.000",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Sex on the Beach",
+      price: "1 x $5.500",
+      description: "Stoli original, Curacao, Jugo de maracuya, Granadina",
+      price2: "2 x $10.000",
+      srcImage: pathImageTagosDeLaCasa + "/sexOnTheBeach.jpg",
+    },
+    {
+      name: "Pineapple Sex",
+      price: "$5.000",
+      description:
+        "Ron blanco, Juego de piña, helado de piña, crema de leche, crema chantilly",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Fruit Passion",
+      price: "$5.000",
+      description: "Wisky, Leche condensada, Jugo de maracuya, Frutilla",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+  ],
+};
+
+const menuJSONTagosDeLaCasaClasicos = {
+  items: [
+    {
+      name: "Copa Sangría",
+      price: "$4.990",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Old Fashoned",
+      price: "$4.990",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Negroni",
+      price: "$4.990",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Manhattan",
+      price: "$4.990",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Martini Dry",
+      price: "$4.500",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Tom Collins",
+      price: "$3.900",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Clavo Oxidado",
+      price: "$4.900",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Margarita",
+      price: "$4.000",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Laguna Azul",
+      price: "$4.990",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Piña Colada",
+      price: "$4.990",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Ruso Blanco",
+      price: "$4.500",
+      description: "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/",
+    },
+    {
+      name: "Ruso Negro",
+      price: "$4.500",
+      description: "",
+      price2: "",
       srcImage: pathImageTagosDeLaCasa + "/",
     },
   ],
@@ -451,43 +678,50 @@ const menuJSONCervezasBarril = {
     {
       name: "Chopp de Cusqueña 500cc",
       description: "",
-      price: "$3.000    2 x $5.000",
+      price: "1 x $3.000",
+      price2: "2 x $5.000",
       srcImage: pathImageCervezas + "/shopCusquenha.jpeg",
     },
     {
       name: "Edeltoff",
       description: "Summer Ale - Ambar Ale",
-      price: "$3.000    2 x $5.000",
+      price: "1 x $3.000",
+      price2: "2 x $5.000",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "Estrella Damm Chopp",
       description: "",
       price: "2 X $6.000",
+      price2: "",
       srcImage: pathImageCervezas + "/estrellaDam.jpg",
     },
     {
       name: "Kross Golden",
       description: "",
       price: "2 x $7.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "Kross Stout",
       description: "",
       price: "2 x $7.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "Stella Artois",
       description: "",
       price: "$3.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "Heineken",
       description: "",
       price: "$3.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
   ],
@@ -498,43 +732,50 @@ const menuJSONCervezasMixes = {
       name: "CROWN BLUE BEER",
       description:
         "Cerveza Corona, con limon, sal, tequila y curacao Crown red beer",
-      price: "$4000 2 × $7000",
+      price: "1 x $4000",
+      price2: "2 × $7000",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "CROWN RED BEER",
       description: "Cerveza Corona, con limon, Sal, tequila y granadina",
-      price: "​$4000 2 × $7000",
+      price: "​1 x $4000",
+      price2: "2 × $7000",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "BEER KALUA",
       description: "Cerveza con Shot de Kalua y Vodka con estelas de canela",
-      price: "​$4.500 2 x $8.000",
+      price: "​1 x $4.500",
+      price2: "2 x $8.000",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "BEER DEVIL",
       description: "Cerveza con Shot de Jagger y Tabasco",
-      price: "$4.500 2 x $8.000",
+      price: "1 x $4.500",
+      price2: "2 x $8.000",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "BEER MEXICO",
       description: "Cerveza con Shot de Tequila Michelado",
-      price: "​$4.500 ​ 2 x $8.000",
+      price: "1 x ​$4.500",
+      price2: "2 x $8.000",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "BEER RUSSO",
       description: "Cerveza con Shot de Vodka y estelas de canela",
-      price: "​​$4.500 ​ 2 x $8.000",
+      price: "1 x ​$4.500",
+      price2: "2 x $8.000",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "BEER SUBMARINE",
       description: "Cerveza con Shot de Pisco y estelas de canela",
-      price: "​$4.500 ​2 x $8.000",
+      price: "1 x ​$4.500",
+      price2: "​2 x $8.000",
       srcImage: pathImageCervezas + "/",
     },
   ],
@@ -546,72 +787,84 @@ const menuJSONCervezasBotella = {
       name: "CORONA",
       description: "",
       price: "$2.500",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "MILLER",
       description: "",
       price: "​​​$2.500",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "CORONA 710cc",
       description: "",
       price: "$4.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "BUDWEISER 1L",
       description: "",
       price: "$4.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "ROYAL GUARD 1L",
       description: "",
       price: "​​$4.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "HEINEKEN 1L",
       description: "",
       price: "​​​​$4.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "AUSTRAL CALAFATE",
       description: "",
       price: "​​​$3.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "AUSTRAL YAGAN",
       description: "",
       price: "​​​$3.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "AUSTRAL PATAGONIA",
       description: "",
       price: "​​​$3.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "KUNTSMANN TOROBAYO",
       description: "",
       price: "​​​$3.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "KUNTSMANN BOCK",
       description: "",
       price: "​​​$3.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
     {
       name: "KUNTSMANN DAS LAGER",
       description: "",
       price: "​​​$3.000",
+      price2: "",
       srcImage: pathImageCervezas + "/",
     },
   ],
@@ -622,24 +875,28 @@ const menuJSONVinosTintos = {
       name: "Copa de Sangría",
       description: "",
       price: "$4.900",
+      price2: "",
       srcImage: pathImageEspumantes + "/",
     },
     {
       name: "Doña Dominga",
       description: "",
       price: "$8.500",
+      price2: "",
       srcImage: pathImageEspumantes + "/",
     },
     {
       name: "Patronales",
       description: "",
       price: "$10.990",
+      price2: "",
       srcImage: pathImageEspumantes + "/",
     },
     {
       name: "Santa Ema",
       description: "",
       price: "$10.990",
+      price2: "",
       srcImage: pathImageEspumantes + "/",
     },
   ],
@@ -650,12 +907,14 @@ const menuJSONVinosBlancos = {
       name: "Patronales",
       description: "",
       price: "$10.900",
+      price2: "",
       srcImage: pathImageEspumantes + "/",
     },
     {
       name: "Santa Ema",
       description: "",
       price: "$10.900",
+      price2: "",
       srcImage: pathImageEspumantes + "/",
     },
   ],
@@ -666,12 +925,14 @@ const menuJSONEspumantes = {
       name: "Valdivieso Brut Copa",
       description: "",
       price: "$2.500",
+      price2: "",
       srcImage: pathImageEspumantes + "/",
     },
     {
       name: "Valdivieso Brut Botella",
       description: "",
       price: "$11.500",
+      price2: "",
       srcImage: pathImageEspumantes + "/",
     },
   ],
@@ -683,84 +944,84 @@ const menuJSONDestiladosCaribe = {
       name: "Mojito jagermeister XL",
       description: "",
       price: "$6.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Mojito Whisky Jack XL",
       description: "(7, Honey, Fire, Apple)",
       price: "$7.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
-      name: "Mojito tradicional",
+      name: "Mojito tradicional ",
       description: "",
-      price: "$3.000",
+      price: "1x$3.500",
+      price2: "2x$6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Mojito sabores",
       description: "Maracuyá, Frutilla, Mango, Frambuesa",
-      price: "$3.500",
-      srcImage: pathImageDestilados + "/",
-    },
-    {
-      name: "Mojito Corona",
-      description: "",
-      price: "$4.990",
-      srcImage: pathImageDestilados + "/",
-    },
-    {
-      name: "Mojito Corona Sabores",
-      description: "",
-      price: "$5.990",
+      price: "1 x $4.000",
+      price2: "2 x $7.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Mojito Corona XL",
       description: "",
-      price: "$5.500",
-      srcImage: pathImageDestilados + "/",
+      price: "$6.000",
+      price2: "",
+      srcImage: pathImageDestilados + "/mojitoCorona.jpg",
     },
     {
       name: "Mojito Corona Sabores XL",
       description: "",
-      price: "$6.000",
-      srcImage: pathImageDestilados + "/",
+      price: "$6.500",
+      price2: "",
+      srcImage: pathImageDestilados + "/mojitoCorona.jpg",
     },
     {
       name: "Mojito Tradicional XL",
       description: "",
-      price: "$4.000",
+      price: "$5.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Mojito Sabores XL",
       description: "",
-      price: "$5.000",
+      price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Caipirinha",
       description: "",
       price: "$3.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Caipiroska",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Daikiri Sabores",
       description: "",
       price: "$3.990",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Daikiri",
       description: "",
-      price: "$4.990",
+      price: "$3.490",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -771,25 +1032,29 @@ const menuJSONDestiladosSpritz = {
     {
       name: "Aperol",
       description: "",
-      price: "$4.990 - 2 x $8.000",
+      price: "1 x $4.990",
+      price2: "2 x $8.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Aperol XL",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Ramazzotti",
       description: "",
-      price: "$4.900 - 2 x $8.000",
+      price: "1 x $4.900",
+      price2: "2 x $8.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Ramazzoti XL",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -800,42 +1065,49 @@ const menuJSONDestiladosVirgins = {
       name: "Bebida 350cc",
       description: "",
       price: "$2.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Agua Mineral 330cc",
       description: "",
       price: "$1.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Gatorade 500cc",
       description: "",
       price: "$2.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Red Bull",
       description: "",
       price: "$2.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Monster",
       description: "",
       price: "$2.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Limonada",
       description: "",
       price: "$3.490",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "Jugo Natural",
       description: "Maracuya, Mango, Frambuesa, Piña, Frutilla",
       price: "$3.490",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -846,61 +1118,71 @@ const menuJSONDestiladosPiscos = {
     {
       name: "ALTO 35°",
       description: "",
-      price: "$3.000 - 2 x $6.000",
+      price: "1 x $3.000",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "ALTO 40°",
       description: "",
       price: "$4.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "MISTRAL 35°",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "MISTRAL 40°",
       description: "",
       price: "$4.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "HORCON QUEMADO 35°",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "HORCON QUEMADO 40°",
       description: "",
       price: "$4.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "FUNDO LOS NICHOS 35°",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "FUNDO LOS NICHOS 40°",
       description: "",
       price: "$4.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "MAL PASO 35°",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "MAL PASO 40°",
       description: "",
       price: "$4.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -911,43 +1193,50 @@ const menuJSONDestiladosRon = {
     {
       name: "FLOR DE CAÑA 4 AÑOS",
       description: "",
-      price: "$3.000 - 2 x $5.000",
+      price: "1 x $3.000",
+      price2: "2 x $5.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "HAVANA ESPECIAL",
       description: "",
-      price: "$4.000 - 2 x $7.000",
+      price: "1 x $4.000",
+      price2: "2 x $7.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "HAVANA AÑEJO RESERVA",
       description: "",
-      price: "$4.000 - 2 x $7.000",
+      price: "1 x $4.000",
+      price2: "2 x $7.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "HAVANA 3 AÑOS",
       description: "",
       price: "$4.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "HAVANA 7 AÑOS",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "CACIQUE AÑEJO",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "CACIQUE 500",
       description: "",
       price: "$4.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -958,61 +1247,71 @@ const menuJSONDestiladosWhisky = {
     {
       name: "BALLANTINES",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "100 PIPPERS",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JACK DANIEL'S N°7",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JACK DANIEL'S APPLE",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JACK DANIEL'S HONEY",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JACK DANIEL'S FIRE",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JOHNNIE WALKER RED LABEL",
       description: "",
-      price: "$4.000 - 2 x $7.000",
+      price: "1 x $4.000",
+      price2: "2 x $7.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JOHNNIE WALKER BLACK LABEL",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "BUCHANAN'S",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "OLD PARR",
       description: "",
       price: "$6.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -1022,32 +1321,37 @@ const menuJSONDestiladosVodka = {
     {
       name: "STOLI ORIGINAL",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "ABSOLUT ORIGINAL",
       description: "",
-      price: "$4.000 - 2 x $7.000",
+      price: "1 x $4.000",
+      price2: "2 x $7.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "ABSOLUT VARIEDADES",
       description:
         "Raspberry, Cherry, Apeach, Vainilla, Kurrant, Citron, Pepar",
-      price: "$4.000 - 2 x $7.000",
+      price: "1 x $4.000",
+      price2: "2 x $7.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "GRAY GOOSE ORIGINAL",
       description: "",
-      price: "$5.500 - 2 x $10.000",
+      price: "1 x $5.500",
+      price2: "2 x $10.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "GRAY GOOSE LE POIRE",
       description: "",
       price: "$6.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -1057,43 +1361,50 @@ const menuJSONDestiladosLicores = {
     {
       name: "BOMBAY SAPPHIRE",
       description: "",
-      price: "$4.500 - 2 x $8.000",
+      price: "1 x $4.500",
+      price2: "2 x $8.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "TANQUERAY",
       description: "",
       price: "$5.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "FERNET BRANCA",
       description: "",
-      price: "$4.000 - 2 x $7.000",
+      price: "1 x $4.000",
+      price2: "2 x $7.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "CAMPARI",
       description: "",
-      price: "$4.000 - 2 x $7.000",
+      price: "1 x $4.000",
+      price2: "2 x $7.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "FRANGELICO",
       description: "",
       price: "$4.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "BAILEYS",
       description: "",
       price: "$4.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "DRAMBUIE",
       description: "",
       price: "$4.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -1103,37 +1414,43 @@ const menuJSONDestiladosShot = {
     {
       name: "TERREMOTO",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $3.500",
+      price2: "2 x $6.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "CUCARACHA",
       description: "",
       price: "$3.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "TEQUILA SHOT",
       description: "",
-      price: "$2.500 - 2 x $4.000",
+      price: "1 x $2.500",
+      price2: "2 x $4.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JAGGERMEISTER",
       description: "",
-      price: "$3.500 - 2 x $6.000",
+      price: "1 x $4.500",
+      price2: "2 x $8.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "AMARETTO",
       description: "",
-      price: "$2.500 - 2 x $4.000",
+      price: "1 x $2.500",
+      price2: "2 x $4.000",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "MENTA",
       description: "",
-      price: "$2.500 - 2 x $4.000",
+      price: "1 x $2.500",
+      price2: "2 x $4.000",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -1144,42 +1461,49 @@ const menuJSONDestiladosMixer = {
       name: "COPA DE SANGRÍA",
       description: "",
       price: "$4.900",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "HORCON QUEMADO 35°+RED BULL",
       description: "",
       price: "$6.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "HAVANA ESPECIAL + RED BULL",
       description: "",
       price: "$6.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JACK N°7 + RED BULL",
       description: "",
       price: "$7.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JOHNNY RED LABEL+RED BULL",
       description: "",
       price: "$6.500",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "ABSOLUT VARIEDADES+RED BULL",
       description: "",
       price: "$7.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
       name: "JAGGERMEISTER - RED BULL (Jager Bomb)",
       description: "",
       price: "$6.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
   ],
@@ -1196,7 +1520,10 @@ function mostrarMenu(menu, container) {
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>${item.name}</span>
-                                                <span class="text-primary">${item.price}</span>
+                                                <div class="text-primary d-flex flex-column">
+                                                <span>${item.price}</span>
+                                                <span>${item.price2}</span>
+                                                </div>
                                             </h5>
                                             <small class="fst-italic">${item.description}</small>
                                         </div>
@@ -1212,6 +1539,12 @@ mostrarMenu(menuJSONParaPicotear, menuItemsParaPicotear);
 mostrarMenu(menuJSONPizza, menuItemsPizza);
 mostrarMenu(menuJSONPizzaPromociones, menuItemsPizzaPromociones);
 mostrarMenu(menuJSONTagosDeLaCasa, menuItemsTagosDeLaCasa);
+mostrarMenu(menuJSONTagosDeLaCasaClasicos, menuItemsTagosDeLaCasaClasicos);
+mostrarMenu(menuJSONTagosDeLaCasaSour, menuItemsTagosDeLaCasaSour);
+mostrarMenu(
+  menuJSONTagosDeLaCasaEroticDrink,
+  menuItemsTagosDeLaCasaEroticDrink
+);
 mostrarMenu(menuJSONCervezasBarril, menuItemsCervezasBarril);
 mostrarMenu(menuJSONCervezasMixes, menuItemsCervezasMixes);
 mostrarMenu(menuJSONCervezasBotella, menuItemsCervezasBotella);
