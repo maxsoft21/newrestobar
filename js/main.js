@@ -195,7 +195,7 @@ const menuJSONParaPicotear = {
         "Lomo vetado 200 grs, queso derretido, todo en Pan Frica + Porcion de papas fritas ",
       price: "$5.990.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/barrosLuco.jpg",
+      srcImage: pathImageParaPicotear + "/barrosLuco1.jpg",
     },
     {
       name: "LOMO ITALIANO",
@@ -203,7 +203,7 @@ const menuJSONParaPicotear = {
         "Lomo vetado 200 grs, tomate, palta, mayonesa casera, en  Pan frica + porcion de papas fritas",
       price: "$5.990.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/lomitoItaliano.jpg",
+      srcImage: pathImageParaPicotear + "/lomitoItaliano1.jpg",
     },
     {
       name: "LOMO CHACARERO",
@@ -211,7 +211,7 @@ const menuJSONParaPicotear = {
         "Lomo vetado 200 grs, porotos verdes, tomate, mayonesa casera, aji verde, en pan frica, + porcion de papas fritas",
       price: "$5.990.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/lomoChacarero.jpg",
+      srcImage: pathImageParaPicotear + "/lomoChacarero1.jpg",
     },
     {
       name: "LECHE DE TIGRE",
@@ -219,7 +219,7 @@ const menuJSONParaPicotear = {
         "Reyneta, Camaron Ecuatoriano, Cancha Serrana, Camote, Marinado en limon mezclado en el jugo del ceviche, acompañados con ricas tostadas, servido en copa",
       price: "$6.900.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/lecheDeTigre.jpg",
+      srcImage: pathImageParaPicotear + "/lecheDeTigre1.jpg",
     },
     {
       name: "CEVICHE NEW",
@@ -227,7 +227,7 @@ const menuJSONParaPicotear = {
         "Reyneta, Cebolla Morada, Camote, Cancha Serrana, Todo marinado en jugo de limon",
       price: "$12.900.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/cevicheNew.jpg",
+      srcImage: pathImageParaPicotear + "/cevicheNew1.jpg",
     },
     {
       name: "CEVICHE MIXTO",
@@ -235,7 +235,7 @@ const menuJSONParaPicotear = {
         "Camaron Ecuatoriano, Reyneta, Cebolla Morada, Camote, Cancha Serrana y todo Marinado en Jugo de Limon",
       price: "$14.900.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/cevicheMixto.jpg",
+      srcImage: pathImageParaPicotear + "/cevicheMixto1.jpg",
     },
     {
       name: "CHORRILLANA NEW",
@@ -259,7 +259,7 @@ const menuJSONParaPicotear = {
         "Carne de Vacuno, Papas Fritas, Acompañado con un mix de verduras salteadas",
       price: "$8.500.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/",
+      srcImage: pathImageParaPicotear + "/Lomosalteado1.jpg",
     },
     {
       name: "POLLO APANADO",
@@ -291,7 +291,7 @@ const menuJSONParaPicotear = {
         "Carne de Vacuno, Carne de cerdo, Longanizas, Pollo, Champiñones Salteados en aceite de Oliva, acompañados de Salame, Aceitunas, Pan tostado con aceite de oliva y oregano, Guacamole.",
       price: "$9.990.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/",
+      srcImage: pathImageParaPicotear + "/tabladecarne.jpg",
     },
     {
       name: "CARNE Y POLLO AL PIL PIL",
@@ -331,7 +331,7 @@ const menuJSONParaPicotear = {
         "Hamburguesa Casera de 200 grs. Bañada en queso Cheddar, Huevo frito, cebolla caramelizada, tomates, lechuga, pepinillos, rebozados en salsa casera, porcion de papas fritas en Pan frica.",
       price: "$5.990.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/",
+      srcImage: pathImageParaPicotear + "/Hamburguesanew2.jpg",
     },
     {
       name: "HAMBURGUESA NEW III",
@@ -339,7 +339,7 @@ const menuJSONParaPicotear = {
         "Hamburgesa casera de 200 grs. Bañada en Queso Cheddar, chorizo parrillero, tocino, cebolla caramelizada, Tomates, Lechuga, Rebozado en salsa casera, porcion de papas fritas en pan frica​",
       price: "$5.990.-",
       price2: "",
-      srcImage: pathImageParaPicotear + "/",
+      srcImage: pathImageParaPicotear + "/Hamburguesanew3.jpg",
     },
   ],
 };
@@ -1416,7 +1416,7 @@ const menuJSONDestiladosShot = {
       description: "",
       price: "1 x $3.500",
       price2: "2 x $6.000",
-      srcImage: pathImageDestilados + "/",
+      srcImage: pathImageDestilados + "/Terremoto.jpg",
     },
     {
       name: "CUCARACHA",
