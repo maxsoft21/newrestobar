@@ -241,7 +241,7 @@ const menuJSONParaPicotear = {
       name: "CHORRILLANA NEW",
       description:
         "Carne de Vacuno,  Cerdo,  Pollo, Chorizo, Cebolla Caramelizada, Papas Chips Rusticas",
-      price: "$11.990.-",
+      price: "$12.990.-",
       price2: "",
       srcImage: pathImageParaPicotear + "/chorrillanaNew.jpg",
     },
@@ -249,7 +249,7 @@ const menuJSONParaPicotear = {
       name: "CHORRILLANA OLD",
       description:
         "Carne de Vacuno, Cerdo, Pollo, Chorizos, Cebolla, Caramelizada, Papas Fritas",
-      price: "$11.990.-",
+      price: "$12.990.-",
       price2: "",
       srcImage: pathImageParaPicotear + "/chorrillanaNew.jpg",
     },
@@ -257,7 +257,7 @@ const menuJSONParaPicotear = {
       name: "LOMO SALTEADO",
       description:
         "Carne de Vacuno, Papas Fritas, Acompañado con un mix de verduras salteadas",
-      price: "$8.500.-",
+      price: "$8.990.-",
       price2: "",
       srcImage: pathImageParaPicotear + "/Lomosalteado1.jpg",
     },
@@ -265,7 +265,7 @@ const menuJSONParaPicotear = {
       name: "POLLO APANADO",
       description:
         "Trozos de pollo apanado al estilo New acompañado de Salsa Teriyaki y Guacamole.",
-      price: "$5.990.-",
+      price: "$6.990.-",
       price2: "",
       srcImage: pathImageParaPicotear + "/polloApanado.jpg",
     },
@@ -273,7 +273,7 @@ const menuJSONParaPicotear = {
       name: "PAPAS A LA NEW",
       description:
         "Papas Chips Ruticas, Trocitos de Carne, Champiñones, bañado en queso derretido con un toque de oregano.",
-      price: "$7.500.-",
+      price: "$7.990.-",
       price2: "",
       srcImage: pathImageParaPicotear + "/papasNew.jpg",
     },
@@ -281,7 +281,7 @@ const menuJSONParaPicotear = {
       name: "PAPAS A LA MEXICANA",
       description:
         "Papas Chips cubiertas en salsa Mexicana, Trocitos de carne, Champiñones, Queso, con toques de oregano.",
-      price: "$7.500.-",
+      price: "$7.990.-",
       price2: "",
       srcImage: pathImageParaPicotear + "/",
     },
@@ -289,7 +289,7 @@ const menuJSONParaPicotear = {
       name: "TABLA DE CARNE",
       description:
         "Carne de Vacuno, Carne de cerdo, Longanizas, Pollo, Champiñones Salteados en aceite de Oliva, acompañados de Salame, Aceitunas, Pan tostado con aceite de oliva y oregano, Guacamole.",
-      price: "$9.990.-",
+      price: "$10.990.-",
       price2: "",
       srcImage: pathImageParaPicotear + "/tabladecarne.jpg",
     },
