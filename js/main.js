@@ -435,6 +435,14 @@ const menuJSONPizzaPromociones = {
 const menuJSONTagosDeLaCasa = {
   items: [
     {
+      name: "TROPICAL GIN",
+      price: "$6.900",
+      description:
+        "",
+      price2: "",
+      srcImage: pathImageTagosDeLaCasa + "/TROPICAL_GIN.jpeg",
+    },
+    {
       name: "NEW TROPIC",
       price: "$6.990",
       description:
