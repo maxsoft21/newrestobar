@@ -448,7 +448,7 @@ const menuJSONTagosDeLaCasa = {
       description:
         "Limón de pica macerado con menta fresca Maracuya, Frambuesa, destilado de jagermaitter con toque de ron bacardi.",
       price2: "",
-      srcImage: pathImageTagosDeLaCasa + "/",
+      srcImage: pathImageTagosDeLaCasa + "/NEW_TROPIC.jpg",
     },
     {
       name: "Luna de Miel",
