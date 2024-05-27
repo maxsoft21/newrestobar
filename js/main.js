@@ -1154,8 +1154,8 @@ const menuJSONDestiladosPiscos = {
     {
       name: "HORCON QUEMADO 35°",
       description: "",
-      price: "1 x $3.500",
-      price2: "2 x $6.000",
+      price: "1 x $4.000",
+      price2: "",
       srcImage: pathImageDestilados + "/",
     },
     {
