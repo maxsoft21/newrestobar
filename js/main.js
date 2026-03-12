@@ -152,6 +152,9 @@ const menuItemsDestiladosVodka = document.getElementById(
 const menuItemsDestiladosLicores = document.getElementById(
   "menuItemsDestiladosLicores",
 );
+const menuItemsPromociones = document.getElementById(
+  "menuItemsPromociones",
+);
 
 const pathImageParaPicotear = "./img/paraPicotear";
 const pathImagePizza = "./img/pizzas";
@@ -162,6 +165,7 @@ const pathImageDestilados = "./img/destilados";
 const pathImageHamburguesas = "./img/hamburguesas";
 const pathImageBebidas = "./img/bebidas";
 const pathImageTragos = "./img/tragos";
+const pathImagePromociones = "./img/promociones";
 
 // Define el JSON con los elementos del menú
 const menuJSONParaPicotear = {
@@ -833,6 +837,52 @@ const menuJSONTagosDeLaCasaEroticDrink = {
     },
   ],
 };
+const menuJSONPromociones = {
+  items: [
+    {
+      name: "CHURRASCO",
+      description: "Churrasco + papas fritas.",
+      price: "$5.500",
+      price2: "",
+      srcImage: pathImagePromociones + "",
+    },
+    {
+      name: "CHURRASCO ITALIANO",
+      description: "Churrasco Italiano + papas fritas.",
+      price: "$6.500",
+      price2: "",
+      srcImage: pathImagePromociones + "",
+    },
+    {
+      name: "BARROS LUCO",
+      description: "Barros Luco + papas fritas.",
+      price: "$6.500",
+      price2: "",
+      srcImage: pathImagePromociones + "",
+    },
+    {
+      name: "CHACARERO",
+      description: "Chacarero + papas fritas.",
+      price: "$5.900",
+      price2: "",
+      srcImage: pathImagePromociones + "",
+    },
+    {
+      name: "CHORRILLANA MIXTA",
+      description: "Chorrillana mixta.",
+      price: "$12.900",
+      price2: "",
+      srcImage: pathImagePromociones + "",
+    },
+    {
+      name: "CHORRILLANA CARNE",
+      description: "Chorrillana carne.",
+      price: "$14.900",
+      price2: "",
+      srcImage: pathImagePromociones + "",
+    },
+  ],
+};
 
 // Función para mostrar los elementos del menú en el <div>
 function mostrarMenu(menu, container) {
@@ -860,6 +910,7 @@ function mostrarMenu(menu, container) {
 }
 
 // Llama a la función para mostrar el menú
+mostrarMenu(menuJSONPromociones, menuItemsPromociones);
 mostrarMenu(menuJSONParaPicotear, menuItemsParaPicotear);
 mostrarMenu(menuJSONHamburguesas, menuItemsHamburguesas);
 mostrarMenu(menuJSONTagosDeLaCasa, menuItemsTagosDeLaCasa);
