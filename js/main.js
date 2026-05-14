@@ -115,9 +115,6 @@
 // Obtén la referencia al elemento <div> donde mostrarás los datos del menú
 const menuItemsParaPicotear = document.getElementById("menuItemsParaPicotear");
 const menuItemsHamburguesas = document.getElementById("menuItemsHamburguesas");
-const menuItemsTagosDeLaCasa = document.getElementById(
-  "menuItemsTagosDeLaCasa",
-);
 const menuItemsTagosDeLaCasaSour = document.getElementById(
   "menuItemsTagosDeLaCasaSour",
 );
@@ -155,6 +152,9 @@ const menuItemsDestiladosLicores = document.getElementById(
 const menuItemsPromociones = document.getElementById(
   "menuItemsPromociones",
 );
+const menuItemsPizzas = document.getElementById("menuItemsPizzas");
+const menuItemsAgregados = document.getElementById("menuItemsAgregados");
+const menuItemsShop = document.getElementById("menuItemsShop");
 
 const pathImageParaPicotear = "./img/paraPicotear";
 const pathImagePizza = "./img/pizzas";
@@ -167,16 +167,13 @@ const pathImageBebidas = "./img/bebidas";
 const pathImageTragos = "./img/tragos";
 const pathImagePromociones = "./img/promociones";
 
+const pathImagePizzas = "./img/pizzas";
+const pathImageAgregados = "./img/agregados";
+const pathImageShop = "./img/shop";
+
 // Define el JSON con los elementos del menú
 const menuJSONParaPicotear = {
   items: [
-    {
-      name: "CHICHARRÓN DE CHANCHO CON PAPAS BRAVAS",
-      description: "",
-      price: "$11.900.-",
-      price2: "",
-      srcImage: pathImageParaPicotear + "/chicharron-chancho.jpg",
-    },
     {
       name: "CHICHARRÓN DE POLLO",
       description: "",
@@ -192,32 +189,11 @@ const menuJSONParaPicotear = {
       srcImage: pathImageParaPicotear + "/alipapas.jpg",
     },
     {
-      name: "ALITAS ACEVICHADAS",
-      description: "",
-      price: "$7.000.-",
-      price2: "",
-      srcImage: pathImageParaPicotear + "/alitas-acevichadas.jpg",
-    },
-    {
-      name: "ALITAS EN SALSA DE MARACUYA",
-      description: "",
-      price: "$7.000.-",
-      price2: "",
-      srcImage: pathImageParaPicotear + "/alitas-maracuya.jpg",
-    },
-    {
       name: "ALITAS A LA BBQ",
       description: "",
       price: "$7.000.-",
       price2: "",
       srcImage: pathImageParaPicotear + "/alitas-bbq.jpg",
-    },
-    {
-      name: "TABLA FRÍA",
-      description: "",
-      price: "$10.000.-",
-      price2: "",
-      srcImage: pathImageParaPicotear + "/tabla-fria.jpg",
     },
     {
       name: "EMPANADA DE CARNE - 6 UND.",
@@ -272,71 +248,14 @@ const menuJSONHamburguesas = {
   ],
 };
 
-const menuJSONTagosDeLaCasa = {
-  items: [
-    {
-      name: "OASIS",
-      price: "$7.000",
-      description:
-        "Limón macerado con menta fresca, maracuyá, frambuesa, destilado de ron y Jagermaister.",
-      price2: "",
-      srcImage: pathImageTagosDeLaCasa + "/oasis.jpg",
-    },
-    {
-      name: "OASIS BLUE",
-      price: "$7.000",
-      description:
-        "Pisco acholado, glitter comestible blue, jugo de limón y esencia de maracuyá.",
-      price2: "",
-      srcImage: pathImageTagosDeLaCasa + "/oasisBlue.jpg",
-    },
-    {
-      name: "LÁGRIMAS DE SANGRE",
-      price: "$7.000",
-      description:
-        "Glitter comestible rojo, miel, jengibre, jugo de limón y tequila.",
-      price2: "",
-      srcImage: pathImageTagosDeLaCasa + "/lagrimasDeSangre.jpg",
-    },
-    {
-      name: "PENICHILIN",
-      price: "$7.000",
-      description: "Whisky, jugo de limón, miel y esencia de jengibre.",
-      price2: "",
-      srcImage: pathImageTagosDeLaCasa + "/penichilin.jpg",
-    },
-  ],
-};
-
 const menuJSONCervezas = {
   items: [
-    {
-      name: "ROYAL 1LT",
-      description: "",
-      price: "$5.000",
-      price2: "",
-      srcImage: pathImageCervezas + "/royal1lt.jpg",
-    },
     {
       name: "HEINEKEN 1LT",
       description: "",
       price: "$5.000",
       price2: "",
       srcImage: pathImageCervezas + "/heineken1lt.jpg",
-    },
-    {
-      name: "QUILMES 1LT",
-      description: "",
-      price: "$4.500",
-      price2: "",
-      srcImage: pathImageCervezas + "/quilmes1lt.jpg",
-    },
-    {
-      name: "STELLA 975ML",
-      description: "",
-      price: "$4.500",
-      price2: "",
-      srcImage: pathImageCervezas + "/stella975ml.jpg",
     },
     {
       name: "VASO CHELADO",
@@ -883,6 +802,153 @@ const menuJSONPromociones = {
     },
   ],
 };
+const menuJSONPizzas = {
+  items: [
+    {
+      name: "PIZZA PEPERONI",
+      description: "",
+      price: "$7.000",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-peperoni.jpg",
+    },
+    {
+      name: "PIZZA SALAME",
+      description: "",
+      price: "$7.000",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-salame.jpg",
+    },
+    {
+      name: "PIZZA HAWAIANA",
+      description: "",
+      price: "$8.000",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-hawaiana.jpg",
+    },
+    {
+      name: "PIZZA POLLO",
+      description: "",
+      price: "$10.000",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-pollo.jpg",
+    },
+    {
+      name: "PIZZA POLLO CAMARÓN",
+      description: "",
+      price: "$14.000",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-pollo-camaron.jpg",
+    },
+    {
+      name: "PIZZA DE LOMO",
+      description: "",
+      price: "$13.000",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-lomo.jpg",
+    },
+    {
+      name: "PIZZA MARGARITA",
+      description: "",
+      price: "$7.000",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-margarita.jpg",
+    },
+    {
+      name: "PIZZA VEGETARIANA",
+      description: "",
+      price: "$8.500",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-vegetariana.jpg",
+    },
+    {
+      name: "PIZZA QUESO 🧀",
+      description: "",
+      price: "$6.000",
+      price2: "",
+      srcImage: pathImagePizzas + "/pizza-queso.jpg",
+    },
+  ],
+};
+
+const menuJSONAgregados = {
+  items: [
+    {
+      name: "PEPERONI",
+      description: "Agregado extra",
+      price: "$1.000",
+      price2: "",
+      srcImage: pathImageAgregados + "/peperoni.jpg",
+    },
+    {
+      name: "SALAME",
+      description: "Agregado extra",
+      price: "$1.000",
+      price2: "",
+      srcImage: pathImageAgregados + "/salame.jpg",
+    },
+    {
+      name: "JAMÓN",
+      description: "Agregado extra",
+      price: "$1.000",
+      price2: "",
+      srcImage: pathImageAgregados + "/jamon.jpg",
+    },
+    {
+      name: "ACEITUNA",
+      description: "Agregado extra",
+      price: "$1.000",
+      price2: "",
+      srcImage: pathImageAgregados + "/aceituna.jpg",
+    },
+    {
+      name: "CHOCLO",
+      description: "Agregado extra",
+      price: "$1.000",
+      price2: "",
+      srcImage: pathImageAgregados + "/choclo.jpg",
+    },
+    {
+      name: "POLLO",
+      description: "Agregado extra",
+      price: "$3.000",
+      price2: "",
+      srcImage: pathImageAgregados + "/pollo.jpg",
+    },
+    {
+      name: "LOMO",
+      description: "Agregado extra",
+      price: "$5.000",
+      price2: "",
+      srcImage: pathImageAgregados + "/lomo.jpg",
+    },
+    {
+      name: "CAMARÓN",
+      description: "Agregado extra",
+      price: "$5.000",
+      price2: "",
+      srcImage: pathImageAgregados + "/camaron.jpg",
+    },
+  ],
+};
+
+const menuJSONShop = {
+  items: [
+    {
+      name: "SHOP QUILMES 500CC",
+      description: "Promoción 2x",
+      price: "2x $6.000",
+      price2: "",
+      srcImage: pathImageShop + "/quilmes.jpg",
+    },
+    {
+      name: "SHOP KROSS GOLDEN",
+      description: "Promoción 2x",
+      price: "2x $8.000",
+      price2: "",
+      srcImage: pathImageShop + "/kross-golden.jpg",
+    },
+  ],
+};
 
 // Función para mostrar los elementos del menú en el <div>
 function mostrarMenu(menu, container) {
@@ -913,7 +979,6 @@ function mostrarMenu(menu, container) {
 mostrarMenu(menuJSONPromociones, menuItemsPromociones);
 mostrarMenu(menuJSONParaPicotear, menuItemsParaPicotear);
 mostrarMenu(menuJSONHamburguesas, menuItemsHamburguesas);
-mostrarMenu(menuJSONTagosDeLaCasa, menuItemsTagosDeLaCasa);
 mostrarMenu(menuJSONTagosDeLaCasaClasicos, menuItemsTagosDeLaCasaClasicos);
 mostrarMenu(
   menuJSONTagosDeLaCasaEroticDrink,
@@ -928,3 +993,6 @@ mostrarMenu(menuJSONDestiladosRon, menuItemsDestiladosRon);
 mostrarMenu(menuJSONDestiladosWhisky, menuItemsDestiladosWhisky);
 mostrarMenu(menuJSONDestiladosVodka, menuItemsDestiladosVodka);
 mostrarMenu(menuJSONDestiladosLicores, menuItemsDestiladosLicores);
+mostrarMenu(menuJSONPizzas, menuItemsPizzas);
+mostrarMenu(menuJSONAgregados, menuItemsAgregados);
+mostrarMenu(menuJSONShop, menuItemsShop);
